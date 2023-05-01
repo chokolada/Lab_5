@@ -26,12 +26,4 @@ public class TextFilter {
         System.out.println("Amount of consonants: " + i);
         return i;
     }
-    public static void main(String[] args) {
-        TextFilter textFiltered = new TextFilter();
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter some text:");
-        String text = scanner.nextLine();
-        System.out.println(textFiltered.allConsonantsCounter(text));
-        System.out.println(textFiltered.isSentenceEmphasized(text));
-    }
 }
