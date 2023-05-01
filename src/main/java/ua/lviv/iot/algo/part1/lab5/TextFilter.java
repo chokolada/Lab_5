@@ -1,6 +1,5 @@
 package ua.lviv.iot.algo.part1.lab5;
 
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
